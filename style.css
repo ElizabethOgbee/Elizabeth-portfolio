@@ -127,6 +127,7 @@ body{
  }
 
  .col{
+     width: 60%;
     padding-left: 50px;
     margin-top: 50px;
  }

@@ -125,36 +125,43 @@ body{
     font-weight: bold;
     padding: 20px;
  }
+ .flex-container{
+    display: flex;
+    flex-direction: row;
+    
+    max-width: 100%;
+   
+    margin: 70px;
+    gap: 50px;
+}
 
- .col{
-     width: 60%;
+
+ .row .align-items-center{
+    
+    flex: 1 ;
+    max-width: 100%;
     padding-left: 50px;
     margin-top: 50px;
  }
 
-.flex-container{
-    column-count: 3;
-    max-width: 100%;
-    display: flex;
-    margin: 70px;
-    gap: 50px;
-}
 
 img{
     width: 100%;
     height: 45vh;
     outline: none;
 }
-
-.c_skills{
+ .c__works h1 {
+margin-top: 3rem;
+}
+/*.c_skills{
     padding: 16px;
-    display: flexbox;
+    display: flex;
     margin-top: 60px;
     margin-bottom: 100px;
     gap: 20px;
     
     
-}
+}*/
 
 .c_skills img{
     column-count: 3;
@@ -239,7 +246,7 @@ img{
 .col-img-1{
     gap: 50px;
 display: flex;
-max-width: 100%;
+width: 50%;
 margin: 10px;
 padding: 18px 305px;
 
@@ -261,7 +268,3 @@ padding: 18px 305px;
     }
 
   }   
-
-
-
- 
